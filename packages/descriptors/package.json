@@ -34,7 +34,7 @@
     "papi": "papi",
     "papi:update": "papi update",
     "prebuild": "papi",
-    "build": "pnpm clean && pnpm copy:dist",
+    "build": "node init && pnpm clean && pnpm copy:dist",
     "clean": "rm -rf dist",
     "copy:dist": "cp -r .papi/descriptors/dist ./dist"
   },
