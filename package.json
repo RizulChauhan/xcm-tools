@@ -32,15 +32,15 @@
     "test:cov": "turbo run test:cov",
     "test:watch": "turbo run test:watch",
     "test:e2e": "turbo run test:e2e",
-    "build": "turbo run build",
-    "build:packages": "pnpm --filter \"./packages/*\" build",
-    "build:apps": "pnpm --filter \"./apps/*\" build",
-    "run:playground": "pnpm --filter playground dev",
-    "run:api": "pnpm --filter xcm-api start:dev",
-    "run:paraspell-site": "pnpm --filter site dev",
-    "run:updateAssets": "pnpm --filter assets updateAssets",
-    "run:updateRouterAssets": "pnpm --filter swap updateAssets",
-    "run:updatePallets": "pnpm --filter pallets updatePallets"
+    "build": "node init && turbo run build",
+    "build:packages": "node init && pnpm --filter \"./packages/*\" build",
+    "build:apps": "node init && pnpm --filter \"./apps/*\" build",
+    "run:playground": "node init && pnpm --filter playground dev",
+    "run:api": "node init && pnpm --filter xcm-api start:dev",
+    "run:paraspell-site": "node init && pnpm --filter site dev",
+    "run:updateAssets": "node init && pnpm --filter assets updateAssets",
+    "run:updateRouterAssets": "node init && pnpm --filter swap updateAssets",
+    "run:updatePallets": "node init && pnpm --filter pallets updatePallets"
   },
   "packageManager": "pnpm@11.18.0"
 }
