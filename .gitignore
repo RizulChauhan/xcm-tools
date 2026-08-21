@@ -1,4 +1,3 @@
-.vscode
 node_modules
 *.log*
 .DS_Store
@@ -6,8 +5,8 @@ node_modules
 dist
 coverage
 _PipelineMapping/
-.env
 .github/copilot-instructions.md
 .idea
 .npmrc
 CLAUDE.md
+config.bat
