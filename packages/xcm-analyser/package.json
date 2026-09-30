@@ -1,6 +1,6 @@
 {
   "name": "@paraspell/xcm-analyser",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Tool for converting XCM MultiLocation into human readable written format.",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "compile": "tsc --noEmit",
-    "build": "rollup -c",
+    "build": "node init && rollup -c",
     "lint:check": "eslint src",
     "lint": "eslint --fix src",
     "format:check": "prettier --check src",
