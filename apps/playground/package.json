@@ -4,8 +4,8 @@
   "version": "14.4.4",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "compile": "tsc",
     "preview": "vite preview",
     "lint:check": "eslint src",
