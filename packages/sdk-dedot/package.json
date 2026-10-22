@@ -1,6 +1,6 @@
 {
   "name": "@paraspell/sdk-dedot",
-  "version": "14.4.4",
+  "version": "14.4.5",
   "description": "Dedot-based SDK for ParaSpell XCM/XCMP tool for developers",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "compile": "tsc --noEmit",
-    "build": "rollup -c",
+    "build": "node init && rollup -c",
     "lint:check": "eslint src",
     "lint": "eslint --fix src",
     "format:check": "prettier --check src",

@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "compile": "tsc --noEmit",
-    "build": "rollup -c",
+    "build": "node init && rollup -c",
     "lint:check": "eslint src",
     "lint": "eslint --fix src",
     "format:check": "prettier --check src",
